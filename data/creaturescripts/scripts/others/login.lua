@@ -191,9 +191,8 @@ function onLogin(player)
     end
 
 
-	player:sendTextMessage(messageType or TALKTYPE_PRIVATE_FROM, 'Bem vindo(a) ao Eduvio, aproveite a qualidade premium em nosso servidor!')
-	player:sendTextMessage(messageType or TALKTYPE_PRIVATE_FROM, 'Relate erros e seja recompensado, assim manteremos sempre a melhor experiencia in game!')
-	player:sendTextMessage(messageType or TALKTYPE_PRIVATE_FROM, 'Duvidas e sugestoes? acesse: http://eduvio.com')
+	player:sendTextMessage(messageType or TALKTYPE_PRIVATE_FROM, 'Bem vindo(a), aproveite o nosso servidor!')
+	player:sendTextMessage(messageType or TALKTYPE_PRIVATE_FROM, 'Relate erros e seja recompensado, assim manteremos sempre a melhor experiencia in game!')	
 	player:sendTextMessage(messageType or TALKTYPE_PRIVATE_FROM, '[BUGS?] Reporte usando Ctrl+Z')
 	player:sendTextMessage(messageType or TALKTYPE_PRIVATE_FROM, 'Fique por dentro de tudo que ocorre em nosso servidor utilize nosso forum!')
 	player:sendTextMessage(messageType or TALKTYPE_PRIVATE_FROM, '[DUVIDAS?]: Utilize o comando !tutor nele tera resposta para varias perguntas')
